@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./Poppins-Regular.ttf), format('ttf');
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins';
+    box-sizing:border-box;
+}
+
+.greeting {
+    color: #484747;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+.spacing {
+    margin-top: 150px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: screen;
+    background: linear-gradient(135deg, rgb(46, 45, 45), rgb(0, 0, 0));
+    padding: 10px;
+}
+
+.todo-app {
+    border: 3px solid #2b2b2b;
+    width: 100%;
+    max-width: 700px;
+    background: #242628;
+    padding:40px 30px 70px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.todo-app h2 img {
+    width: 30px;
+    margin-left: 15px;
+}
+
+.todo-app h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    border:none;
+    outline:none;
+    background:transparent;
+    padding: 10px;
+}
+
+.row button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #FC6A03;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: white;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 12px 8px 12px 20px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li select {
+    width: 100px;
+    border: solid 2px #3c3c3c;
+    margin-left: auto;
+    border-radius: 10px;
+    background-color: #edeef0;
+}
+
+li button {
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 3px 8px;
+    background: red;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 10px;
+}
