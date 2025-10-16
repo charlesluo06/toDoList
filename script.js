@@ -97,8 +97,7 @@ addTaskButton.addEventListener('click', function(){
         }
         if (newStatus === "To Do") {
         // Whatever you want to happen
-        li.style.backgroundColor = "white";  // example: reset background
-        li.style.color = "black";
+        selectBtn.style.backgroundColor = "white";  // example: reset background
     } else if (newStatus === "In Progress") {
         selectBtn.style.backgroundColor = "yellow";
     } else if (newStatus === "Completed") {
