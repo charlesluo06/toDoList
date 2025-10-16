@@ -28,6 +28,9 @@ if (savedTasks) {   // local data
 
         selectBtn.value = task.status;
 
+        if (task.status === 'To Do'){
+            selectBtn.style.backgroundColor = "white"
+        }
         if (task.status === 'In Progress'){
             selectBtn.style.backgroundColor = "yellow"
         }
