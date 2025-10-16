@@ -99,11 +99,10 @@ addTaskButton.addEventListener('click', function(){
             localStorage.setItem('tasks', JSON.stringify(tasks));
         }
         if (newStatus === "To Do") {
-        // Whatever you want to happen
         selectBtn.style.backgroundColor = "white";  // example: reset background
-    } else if (newStatus === "In Progress") {
+    } if (newStatus === "In Progress") {
         selectBtn.style.backgroundColor = "yellow";
-    } else if (newStatus === "Completed") {
+    } if (newStatus === "Completed") {
         selectBtn.style.backgroundColor = "#03C04A";
     }
     });
